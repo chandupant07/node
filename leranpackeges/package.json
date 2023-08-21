@@ -1,0 +1,18 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "this about nodeapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "pant"
+  ],
+  "author": "chandupant",
+  "license": "ISC",
+  "dependencies": {
+    "zone.js": "^0.13.1"
+  }
+}
