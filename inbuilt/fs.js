@@ -12,8 +12,17 @@ let fs = require('fs');
 //   console.log(data)
 // })
 
-fs.readFile('db.json', 'utf-8', function (err, data) {
-  if (err) throw err
-  console.log(data)
-}
-)
+// fs.readFile('db.json', 'utf-8', function (err, data) {
+//   if (err) throw err
+//   console.log(data)
+// })
+
+// fs.unlink('mycode.txt', function (err) {
+//   if (err) throw err
+//   console.log('file deleted')
+// })
+
+fs.rename('myText2.txt', 'myText.txt', function (err) {
+  if (err) throw err;
+  console.log('file rename sucessfully');
+})
